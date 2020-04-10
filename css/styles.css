@@ -1,0 +1,148 @@
+#title {
+  background-color: #ff4c68;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family:'Montserrat', sans-serif;
+}
+.container-fluid {
+  padding: 3% 15% !important;
+  
+}
+h1 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 900 !important;
+  font-size: 3rem !important;
+  line-height: 1.5;
+}
+h2 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 900 !important; 
+  font-size: 3rem !important;
+  line-height: 1.5 !important;
+}
+p {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+  color:#8f8f8f
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem !important;
+}
+.navbar {
+  padding-bottom:0 0 4.5rem !important;
+}
+.nav-item {
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.2rem !important;
+  padding: 0 20px;
+  font-weight: 300 !important;
+}
+
+.row h1 {
+  color: #ffffff;
+  line-height: 4rem !important;
+  padding: 30px 0;
+}
+.row {
+  margin: 0 !important;
+  margin-top: 30px !important;
+}
+.btn {
+  margin: 5% 3% 5% 0;
+}
+.iphone-dog{
+  width: 50%;
+  transform: rotate(25deg);
+  margin-left: 90px;
+ 
+}
+#features {
+  text-align: center !important;
+  padding: 7% 15%;
+  background-color: #ffffff; 
+}
+
+.fas {
+ font-size: 4rem;
+ color: #ef8172;
+}
+.fas:hover {
+  color: #ff4c68;
+}
+.feature-rows {
+  margin: 0 !important;
+}
+.feature-rows h3 {
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.feature-rows p{
+  font-family:'Montserrat', sans-serif;
+  color: #8f8f8f;
+}
+.feature-box {
+  padding:5%;
+}
+#testimonials {
+  padding: 3% 15%;
+  text-align: center;
+  background-color:  #ef8172;
+  color: #ffffff;
+}
+#testimonials img {
+  width: 10% !important;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0;
+  
+}
+#press {
+  text-align: center;
+  background-color:  #ef8172;
+  padding-bottom: 3%;
+}
+#press img {
+  width: 15% !important;
+  margin: 20px 20px 50px;
+}
+.card {
+  height: 400px !important;
+  width: 18rem;
+  
+}
+@media ( max-width: 991px) {
+  .title-items {
+    text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .iphone-dog {
+    transform: rotate(0deg);
+    margin-left: 0;
+  }
+}
+#cta {
+  text-align: center;
+  background-color:#ff4c68;
+}
+#cta h3 {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 900 !important;
+  color: #ffffff;
+  font-size: 2.5rem;
+}
+
+#footer {
+  text-align: center;
+}
+.footer-icons {
+  padding: 10px 15px 10px;
+}
